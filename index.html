@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+
+    <div id='initial'>
+        <div>
+            <h2 id = 'initquestion'>Hello and Welcome to our garden! Would you like to take a stroll with us?</h2>
+        </div>
+        <div class="buttons">
+            <button onclick = "initial_question()" id = 'yes'>Yes</button>
+            <button id = 'no'>No</button>
+        </div>
+    </div>
+    <div class ="box" id="myDIV">
+        <p id = "change">
+            text
+        </p>
+    </div>
+    <div id='bottom'>
+        <div id="question1">
+            <p id = 'text1'>What part of the garden do you want to explore?</p>
+            <div id = 'buttons'>          
+                  <button id="humid" onclick = player_choice()>I just want to avoid the humidity</button><button id ="pretty" onclick= player_choice2()>I just want to see pretty flowers</button><button id="shade" onclick= player_choice3()>Anywhere in the shade!</button>        
+    <script src="sketch.js"></script>
+  </body>
+</html>
